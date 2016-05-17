@@ -6,10 +6,10 @@
 
 **Model Setup**: Treating this as an online prediction problem
 
-Four methods:
-1. Constant probability (baseline)
-2. Bayesian (multi-arm bandit)
-3. Warm start (e.g. SGD logistic regression, naive bayes)
+Four methods:<br>
+1. Constant probability (baseline)<br>
+2. Bayesian (multi-arm bandit)<br>
+3. Warm start (e.g. SGD logistic regression, naive bayes)<br>
 4. Cold start every time (i.e. build a new model for each shot that we are predicting)
 
 **Evaluation**: log loss
